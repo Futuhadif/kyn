@@ -1,0 +1,28 @@
+.nav-link:hover,
+.nav-link:active,
+.nav-link.active {
+    padding-bottom: 0.25rem !important;
+    border-bottom: 4px solid #FF4F6B !important;
+}
+
+.nav-account {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nav-account img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-logout {
+    width: 100%;
+}
+
+@media (min-width: 577px) {
+    .dropdown-menu {
+        max-width: 300px;
+    }
+}
